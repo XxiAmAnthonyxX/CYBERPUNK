@@ -1,0 +1,176 @@
+history | grep yay
+yay -Syu
+yay qt6-declarative
+yay firefox
+yay material-symbols
+yay root
+yay -yu
+hyprpm add https://github.com/yayuuu/hyprland-scroll-overview.git
+yay hyprpm
+yay -Rns superfile
+yay superfile
+yay jq
+yay slurp
+yay pactl
+yay wf-recorder
+yay recorder
+yay grimblast
+yay -Rns thunar
+yay -Rns thunar thunar-volman
+yay wezterm
+yay quickshell
+yay -S gtk-launch
+yay gtk-launch
+yay cava
+yay -Qm
+yay zellij
+yay playerctl
+yay playercytl
+yay gtrash
+yay mpris
+yay pdf | rg tui
+yay pdf | grep tui
+yay pdf | tui
+yay pdf
+yay thunar
+yay clam
+yay ollama
+yay xdg-desktop-portal-termfilechooser-hunkyburrito-git
+yay xdg-desktop-portal | grep Installed
+yay -G xdg-desktop-portal-termfilechooser-hunkyburrito-git
+yay -Si xdg-desktop-portal-termfilechooser-hunkyburrito-git
+yay -S xdg-desktop-portal-termfilechooser-hunkyburrito-git
+yay -G xdg-desktop-portal-termfilechooser-hunkyburrito-git
+yay termfilechooser
+yay xdg-desktop-portal
+yay sixel
+yay clipse
+yay copyq
+yay 0.56.2
+yay fd
+yay easyeffects
+yay alsa-utils
+yay ffmpeg
+yay -Qe
+yay less
+yay papirus
+yay amdgpu_top
+yay mpvpaper
+yay wtype
+yay resvg
+yay exiftool
+yay hexyl
+yay tar
+yay glow
+yay swaylock
+yay -Sty
+yay wine
+yay linux
+yay aplay
+yay ouch
+yay docker-buildx
+yay lazy neovim
+yay docker
+yay pavucontrol
+yay anime
+yay vesktop
+yay -Rns upscayl-bin upscayl-bin-debug
+yay omnic
+yay Omnic Sans
+yay opencode
+yay -S ollama-term
+yay ollama-term
+yay ollama-rocm
+yay udisks2
+yay cmake
+yay gnome-disk
+yay glava
+yay -S ffmpegthumbnailer
+yay ffmpegthumbnailer
+yay -Rns pavucontrol
+yay -Rns --print --print-format "%n" waybar
+yay -Rns waybar
+yay -Rns cava
+yay -Rns wiremix
+yay -Rns --print
+yay -Rns librewolf --print
+yay -Rns librewolf
+yay -Rns vesktop-bin
+yay -Ss | fzf
+yay -Ss | fzf firefox
+yay -Ss . | fzf firefox
+yay -Si librewolf
+yay -Qtdq
+fzf | yay -Ss
+yay -Ss
+history | string match -rv '^(yay|pacman) ' | sort | uniq -c | sort -nr | head -100
+history | string match -rv '^(yay|pacman) ' | sort | uniq -c | sort -nr | head -75
+history | string match -rv '^(yay|pacman) ' | sort | uniq -c | sort -nr | head -50
+yay waybar | grep cava
+yay waybar
+yay wayabr
+yay libcava
+yay botan
+yay -Qtdq
+yay
+yay bat
+yay wev
+yay audio visualizer
+yay -S vesktop-bin
+yay librewolf
+yay upscale
+yay pywal
+yay ani-cli
+yay -Rns librewolf-bin
+yay -S gvfs-mtp
+yay gvfs | grep mtp
+yay gvfs | grep mpt
+yay gvfs-mpt
+yay gvfs
+yay thunar-volman
+yay android-file-transfer
+yay android-tools
+yay android-platform | grep tools
+yay android-platform-tools
+yay android-platform
+yay android-udev
+yay -S thunar tumbler gvfs
+yay tumbler
+yay -Rns zen-browser-bin
+yay -S zen-browser-bin
+yay -R zen-browser-bin
+yay -R zen-browser
+yay zen-browser-bin
+yay zen browser
+yay tui-journal
+yay notes | grep tui
+yay notes
+yay openrgb
+yay numr
+yay fzf | grep tmux
+yay fzf-tmux
+yay -S fzf ffmpeg
+yay fzf ffmpeg
+yay ncmpcpp
+yay beets
+yay strawberry
+yay fzf
+yay nwg-look
+yay nwg
+yay kew
+
+sudo pacman -Syu
+sudo pacman -Rns $(pacman -Qdtq)
+sudo pacman -S hyprland xdg-desktop-portal-hyprland hyprpolkitagent hyprlock hyprshot xdg-utils qt6-wayland waybar \
+sudo pacman -S hyprland xdg-desktop-portal-hyprland hyprpolkitagent hyprlock hyprshot xdg-utils qt6-wayland waybar \
+sudo pacman -S eza bat ripgrep fd fzf zoxide starship atuin fastfetch neovim git-delta --needed
+sudo pacman -S eza bat ripgrep fd fzf zoxide starship atuin fastfetch neovim git-delta
+sudo pacman -S mpv imv wl-clipboard trash-cli ouch
+sudo pacman -S yazi ffmpegthumbnailer unarchiver jq poppler fd fzf zoxide bat eza mediainfo exiftool glow hexyl
+sudo pacman -Rns docker docker-compose docker-buildx
+sudo pacman -Syu docker docker-compose docker-buildx
+sudo pacman -S cmake
+sudo pacman -S cmake cpio pkg-config git g++ gcc
+sudo pacman -S yazi ffmpeg 7zip jq poppler fd ripgrep fzf zoxide resvg imagemagick
+sudo pacman -S bat eza glow hexyl mediainfo mpv lazygit ouch wl-clipboard \
+sudo pacman -S cliphist fzf kitty wl-clipboard wtype bat imagemagick
